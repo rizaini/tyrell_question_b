@@ -85,5 +85,3 @@ AND (Jobs.deleted) IS NULL)
 GROUP BY Jobs.id 
 ORDER BY Jobs.sort_order desc, 
 Jobs.id DESC LIMIT 50 OFFSET 0;
-
-
